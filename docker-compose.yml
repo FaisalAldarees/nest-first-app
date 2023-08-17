@@ -33,6 +33,7 @@ services:
       - DB_NAME=nest
       - DB_USER=postgres
       - DB_PASS=123
+      - JWT_SECRET=shhh
 
     depends_on:
       - db
